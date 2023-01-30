@@ -1,0 +1,21 @@
+name: EthernautDAO Challenges
+
+default_ecosystem: ethereum
+ethereum:
+  default_network: goerli-fork
+  goerli_fork:
+    default_provider: foundry
+    transaction_acceptance_timeout: 600 # 5 minutes
+
+foundry:
+  fork:
+    ethereum:
+      goerli:
+        upstream_provider: alchemy
+
+plugins:
+  - name: vyper
+  - name: solidity
+  - name: foundry
+  - name: alchemy
+  - name: etherscan
