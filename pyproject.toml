@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "EthernautDAO Challenges"
 version = "0.1.0"
-description = "EthernautDAO Challenges reproduced with Ape and Vyper"
-authors = "0xJCN"
+description = "EthernautDAO Challenges implementation with Ape, exploits with Vyper"
+authors = ["0xJCN"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
